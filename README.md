@@ -1,17 +1,23 @@
-# golem-image-fix
-Dieses Chrome-Addon sorgt dafür, dass die Bilder auf der IT-Newsseite [golem.de](http://golem.de) vernünftig nachgeladen werden, wenn ein Scriptblocker dies verhindern sollte.
+# golem-script-fix
 
-## Vergeich
-#### Vorher
-![Golem vorher mit ScriptBlocker](https://raw.githubusercontent.com/RicoBrase/golem-image-fix/images/golem-vorher.PNG)
+Dieses Chrome-Addon sorgt dafür, dass durch Script-/AdBlocker blockierte Funktionalitäten auf der IT-Newsseite [golem.de](http://golem.de) wiederhergestellt werden.
+Dazu zählen bisher:
 
-#### Nachher
-![Golem nachher mit ScriptBlocker](https://raw.githubusercontent.com/RicoBrase/golem-image-fix/images/golem-nachher.PNG)
+- Nachladen von Bildern
+- Link zum Kommentarbereich der Artikel auf der Startseite
 
 ## Downloads
-Die Releases mit den Download-Links sind hier zu finden: https://github.com/RicoBrase/golem-image-fix/releases
+
+Die Releases mit den Download-Links sind hier zu finden: https://github.com/RicoBrase/golem-script-fix/releases
 
 ## Changelog
+
+### v0.2.0
+
+- Umbenennung in "Golem Script Fix (golem-script-fix)"
+- Behebt jetzt falsche/fehlende Links zum Kommentarbereich auf der Startseite
+
 ### v0.1.5
-* Erste Veröffentlichung
-* Grundlegende Funktionalität
+
+- Erste Veröffentlichung
+- Grundlegende Funktionalität
