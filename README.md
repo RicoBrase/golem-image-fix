@@ -8,7 +8,7 @@ Dazu zählen bisher:
 
 ## Downloads
 
-Die Releases mit den Download-Links sind hier zu finden: https://github.com/RicoBrase/golem-script-fix/releases
+Die als CRX vorgepackten Releases sind hier zu finden: https://github.com/RicoBrase/golem-script-fix/releases
 
 ## Changelog
 
