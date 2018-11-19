@@ -15,7 +15,7 @@ Die Releases mit den Download-Links sind hier zu finden: https://github.com/Rico
 ### v0.2.0
 
 - Umbenennung in "Golem Script Fix (golem-script-fix)"
-- Behebt jetzt falsche/fehlende Links zum Kommentarbereich auf der Startseite
+- Behebt jetzt auch falsche/fehlende Links zum Kommentarbereich auf der Startseite
 
 ### v0.1.5
 
