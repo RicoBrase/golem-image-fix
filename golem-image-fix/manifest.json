@@ -1,32 +1,32 @@
 {
   "manifest_version": 2,
- 
-  "name": "Golem Image Fix",
-  "version": "0.1.6",
+
+  "name": "Golem Script Fix",
+  "version": "0.2.0",
   "author": "Rico Brase",
-  "description": "Stellt die 'Afterload'-Bilder auf Golem.de trotz ScriptBlocker dar.",
-  
+  "description": "Stellt Funktionalitäten wieder her, die durch einen Script-/AdBlocker mitgeblockt werden.",
+
   "icons": {
     "128": "golem128.png",
-	"48": "golem48.png",
-	"16": "golem16.png"
+    "48": "golem48.png",
+    "16": "golem16.png"
   },
-  
+
   "browser_action": {
     "default_icon": {
-    "128": "golem128.png",
-	"48": "golem48.png",
-	"16": "golem16.png"
-     },
-	 "default_title": "Golem Image Fix",
-	 "default_popup": "about.html"
+      "128": "golem128.png",
+      "48": "golem48.png",
+      "16": "golem16.png"
+    },
+    "default_title": "Golem Script Fix",
+    "default_popup": "about.html"
   },
- 
+
   "content_scripts": [{
     "js": ["content.js"],
     "matches": ["*://*.golem.de/*"]
   }],
-  
-  "homepage_url": "https://github.com/RicoBrase/golem-image-fix"
- 
+
+  "homepage_url": "https://github.com/RicoBrase/golem-script-fix"
+
 }
