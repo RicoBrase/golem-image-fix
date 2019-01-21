@@ -8,7 +8,8 @@ for (var i = 0; i < images.length; i++) {
 // FIX LINK TO COMMENT SECTION FOR PROMO ARTICLE
 
 var promoArticle = document.getElementById('index-promo');
-buildCommentsLink(promoArticle);
+if (promoArticle !== null)
+	buildCommentsLink(promoArticle);
 
 // FIX LINK TO COMMENT SECTION FOR ALL OTHER ARTICLES
 
@@ -37,7 +38,7 @@ function buildCommentsURL(articleURL) {
  * @param {HTMLElement} article
  */
 function buildCommentsLink(article) {
-	var articleLink = article.querySelector('header > a').getAttribute('href');
+	var articleLink = article.querySelector('li > header.cluster-header > a').getAttribute("href");
 	var articleCommentSpan = article.querySelector('div.icons-wrapper > span.icon-comments');
 	var articleCommentLink = document.createElement('a');
 
@@ -45,4 +46,14 @@ function buildCommentsLink(article) {
 	articleCommentLink.innerHTML = articleCommentSpan.innerHTML;
 	articleCommentLink.setAttribute('href', buildCommentsURL(articleLink));
 	articleCommentSpan.replaceWith(articleCommentLink);
+}
+
+// FIX HERO VIDEO IMAGE ALTERNATIVE IN ARTICLES
+var hero = document.querySelector("figure.hero");
+if (hero && hero.getElementsByClassName("gvideofig").length > 0) {
+	var noscript = hero.getElementsByTagName("noscript")[0];
+	var parser = new DOMParser();
+	var img = parser.parseFromString(noscript.innerHTML, "text/html").getElementsByTagName("img")[0];
+
+	hero.prepend(img);
 }
