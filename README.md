@@ -12,6 +12,11 @@ Die als CRX vorgepackten Releases sind hier zu finden: https://github.com/RicoBr
 
 ## Changelog
 
+### v0.3.0
+
+- Fehlerbehebung: Fehlermeldung beim Öffnen eines Artikels
+- Behebt jetzt auch fehlende Bilder, die als Alternative zu einem "Hero-Video" eines Artikels verwendet werden.
+
 ### v0.2.0
 
 - Umbenennung in "Golem Script Fix (golem-script-fix)"
