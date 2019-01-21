@@ -38,7 +38,7 @@ function buildCommentsURL(articleURL) {
  * @param {HTMLElement} article
  */
 function buildCommentsLink(article) {
-	var articleLink = article.querySelector('li > header.cluster-header > a').getAttribute("href");
+	var articleLink = article.querySelector('header.cluster-header > a').getAttribute("href");
 	var articleCommentSpan = article.querySelector('div.icons-wrapper > span.icon-comments');
 	var articleCommentLink = document.createElement('a');
 
