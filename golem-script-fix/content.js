@@ -19,7 +19,7 @@ if (promoArticle !== null)
 var articleList = document.querySelectorAll('div > section > ol.list-articles');
 
 for (var i = 0; i < articleList.length; i++) {
-	for (var article of articleList[i].querySelectorAll('li')) {
+	for (var article of articleList[i].querySelectorAll('li:not(.sp-breakout)')) {
 		buildCommentsLink(article);
 	}
 }

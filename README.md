@@ -12,6 +12,10 @@ Die als CRX vorgepackten Releases sind hier zu finden: https://github.com/RicoBr
 
 ## Changelog
 
+### v0.3.2
+
+- Gesponsorte Artikel sorgen nicht mehr für Fehler beim Aufbau der Kommentar-Links
+
 ### v0.3.1
 
 - Fehlerbehebung: Eine Änderung in v0.3.0 hatte dafür gesorgt, dass die Links zum Kommentarbereich auf der Startseite nicht mehr funktionierten.
